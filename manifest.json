@@ -1,0 +1,45 @@
+{
+    "name": "Preiódico Premium",
+    "author": "javimogan",
+    "description": "Conviértete en un usuario premium en los mayores periódicos de España",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.elpais.com/*",
+          "https://*.sport.es/*",
+          "https://*.epe.es/*",
+          "https://*.eldia.es/*",
+          "https://*.informacion.es/*",
+          "https://*.diariocordoba.com/*",
+          "https://*.laprovincia.es/*",
+          "https://*.mallorcazeitung.es/*",
+          "https://*.laopinioncoruna.es/*",
+          "https://*.laopiniondemalaga.es/*",
+          "https://*.elperiodicoextremadura.com/*",
+          "https://*.elperiodicomediterraneo.com/*",
+          "https://*.elperiodicodearagon.com/*",
+          "https://*.elperiodico.com/*",
+          "https://*.elperiodico.cat/*"
+        ],
+        "js": ["removeAds.js"]
+      }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "/images/16x16-preiodicoPremium.png",
+          "32": "/images/32x32-preiodicoPremium.png",
+          "48": "/images/48x48-preiodicoPremium.png",
+          "128": "/images/128x128-preiodicoPremium.png"
+        }
+      },
+      "icons": {
+        "16": "/images/16x16-preiodicoPremium.png",
+        "32": "/images/32x32-preiodicoPremium.png",
+        "48": "/images/48x48-preiodicoPremium.png",
+        "128": "/images/128x128-preiodicoPremium.png"
+      }
+  }
