@@ -1,4 +1,4 @@
-# 📰 PeriodicoPremium
+# 📰 Periódico Premium
 **_Conviértete en un usuario premium en los mayores periódicos de España_**
 
 **_Extensión para Google Chrome_**
