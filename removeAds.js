@@ -1,8 +1,15 @@
+/*setTimeout(() => {
+    removeAds();
+}, 250)*/
+new MutationObserver((mutationsList, observer) => {
+  for(let mutation of mutationsList) {
+      if (mutation.type === 'childList') {
+        removeAds();
+      }
+  }
+}).observe(document.body, { childList: true, subtree: true });
 
-window.onload = function() {
-  remove();
-};
-function remove(){
+function removeAds(){
   hostname = window.location.hostname.split('.')
   let dominio,subDominio;
   if(hostname.length > 1){
