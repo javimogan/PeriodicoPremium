@@ -18,6 +18,14 @@
 ## ¿Qué es?
   Periódico Premium, es una extensión para Google Chrome, la cuál te permite leer noticias sólo aptas para usuarios premium en la mayoría de los periódicos de 🇪🇸.
 
+## Instalación
+
+1. Descarga la extensión [https://github.com/javimogan/PeriodicoPremium/archive/refs/heads/main.zip](https://github.com/javimogan/PeriodicoPremium/archive/refs/heads/main.zip)
+2. Dirígete a [chrome://extensions/](chrome://extensions/) 
+3. En la parte superior derecha, **activa el modo desarrollador**.
+4. Haz clic en **Cargar descomprimida**.
+5. Busca y selecciona la carpeta de la extensión descargada en el paso 1.
+
 # 🌚 About author
 <!-- About Author -->
 <table id="contributors">
