@@ -21,10 +21,11 @@
 ## Instalación
 
 1. Descarga la extensión [https://github.com/javimogan/PeriodicoPremium/archive/refs/heads/main.zip](https://github.com/javimogan/PeriodicoPremium/archive/refs/heads/main.zip)
-2. Dirígete a [chrome://extensions/](chrome://extensions/) 
-3. En la parte superior derecha, **activa el modo desarrollador**.
-4. Haz clic en **Cargar descomprimida**.
-5. Busca y selecciona la carpeta de la extensión descargada en el paso 1.
+2. Descomprima la carpeta descargada.
+3. Dirígete a [chrome://extensions/](chrome://extensions/) 
+4. En la parte superior derecha, **activa el modo desarrollador**.
+5. Haz clic en **Cargar descomprimida**.
+6. Busca y selecciona la carpeta de la extensión descargada en el paso 1.
 
 # 🌚 About author
 <!-- About Author -->
